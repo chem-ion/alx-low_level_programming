@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints the alphabet in lowercase, and then in uppercase,
+ * main - prints the alphabet in lowercase,
  * followed by a new line
  * Return: Always 0 (Success)
  */
@@ -11,8 +11,8 @@ int main(void)
 
 	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(ch);	
-	}	
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
