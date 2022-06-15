@@ -1,3 +1,6 @@
+#ifndef FILE_F_POINTERS
+#define FILE_F_POINTERS
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,3 +20,4 @@ int op_mod(int a, int b);
 int (*get_op_func(char *s))(int, int);
 
 #endif
+
